@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "cd src; node Node_A.js & node Node_B.js"
+    },
+    "dependencies": {
+        "socket.io": "^4.5.1",
+        "socket.io-client": "^4.5.1",
+        "socket.io-stream": "^0.9.1",
+        "three": "^0.141.0"
+    }
+}
