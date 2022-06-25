@@ -1,2 +1,3 @@
 node_modules/
 src/vertices.js
+.DS_Store
