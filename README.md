@@ -27,4 +27,4 @@ Initially, Node A acts as a server, waiting for a connection from Node B, the cl
 
 Upon receiving the file, Node B writes the file's binary data to an output STL file. Node A and B both trigger their own respective functions upon completion of the file transfer to switch their roles as client and server, respectively. Node B initiates a read stream on `output.stl` and Node A initiates a write stream to output that data to `cad_mesh_output.stl`. The file transfer completes, and Node B has successfully returned its file data back to Node A. 
 
-I have commented on each part of the code and placed `console.log` statements along the way to display the order Node A and Node B interact. 
+I have commented on each part of the code and placed `console.log` statements along the way to display the order Node A and Node B interact. Also, I did get started on the optional challenge with `vertices.js` and implemented a way to get all the vertices using three.js. I can work on expanding it in the future. 
