@@ -1,6 +1,6 @@
 //Imports
 const { Server } = require("socket.io");
-const io = new Server(3000, {});
+const io = new Server(3001, {});
 const fs = require("fs");
 var ss = require("socket.io-stream");
 
